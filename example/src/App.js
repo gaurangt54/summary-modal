@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent } from 'summary-modal'
+import { SummaryModal } from 'summary-modal'
 import 'summary-modal/dist/index.css'
 
+const text = "React Library Example 😄" 
+
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <SummaryModal text={text} />
 }
 
 export default App

@@ -1,6 +1,9 @@
-import React from 'react'
+/* eslint-disable prettier/prettier */
+import React, { Component } from 'react'
 import styles from './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export class SummaryModal extends Component {
+  render() {
+    return <div className={styles.test}>Example Component: {this.props.text}</div>
+  }
 }
